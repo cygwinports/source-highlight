@@ -1,5 +1,5 @@
 category: Libs
-requires: libboost-devel libstdc++6-devel libsource-highlight3
+requires: libboost-devel libstdc++6-devel libsource-highlight4
 external-source: source-highlight
 sdesc: "Syntax highlighting library (development)"
 ldesc: "This program, given a source file, produces a document with 

@@ -1,5 +1,5 @@
 category: Devel
-requires: libboost1.46.1 libgcc1 libstdc++6 libsource-highlight3
+requires: libboost1.46.1 libgcc1 libstdc++6 libsource-highlight4
 sdesc: "Syntax highlighting utilities"
 ldesc: "This program, given a source file, produces a document with 
 syntax highlighting. Source-highlight reads source language 
