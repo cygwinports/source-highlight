@@ -11,3 +11,5 @@ libsource_highlight_common_CONTENTS="usr/share/${PN}/"
 libsource_highlight_devel_CONTENTS="usr/include/ usr/lib/"
 
 MAKEOPTS+=" aclocal_DATA= "
+
+KEEP_LA_FILES="none"
