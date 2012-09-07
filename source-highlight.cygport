@@ -1,0 +1,28 @@
+NAME="source-highlight"
+VERSION=3.1.7
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Syntax highlighting library"
+DESCRIPTION="This program, given a source file, produces a document with
+syntax highlighting. Source-highlight reads source language specifications
+dynamically, thus it can be easily extended for handling new languages. It
+also reads output format specifications dynamically, and thus it can be easily
+extended for handling new output formats."
+HOMEPAGE="http://www.gnu.org/software/src-highlite/"
+SRC_URI="mirror://gnu/src-highlite/${P}.tar.gz"
+PATCH_URI="3.1.4-no-undefined.patch"
+
+PKG_NAMES="${PN} lib${PN}4 lib${PN}-common lib${PN}-devel"
+source_highlight_CATEGORY="Text"
+source_highlight_SUMMARY="Syntax highlighting utilities"
+source_highlight_CONTENTS="--exclude=*.dll etc/ usr/bin/ usr/share/doc/
+                           usr/share/info/ usr/share/man/"
+libsource_highlight4_SUMMARY="${SUMMARY} (runtime)"
+libsource_highlight4_REQUIRES="lib${PN}-common"
+libsource_highlight4_CONTENTS="usr/bin/cygsource-highlight-4.dll"
+libsource_highlight_common_SUMMARY="${SUMMARY} (runtime data)"
+libsource_highlight_common_CONTENTS="usr/share/${PN}/"
+libsource_highlight_devel_SUMMARY="${SUMMARY} (development)"
+libsource_highlight_devel_CONTENTS="usr/include/ usr/lib/"
+
+KEEP_LA_FILES="none"

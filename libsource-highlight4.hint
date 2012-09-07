@@ -1,9 +1,0 @@
-category: Libs
-requires: libboost1.48 libgcc1 libstdc++6 libsource-highlight-common
-external-source: source-highlight
-sdesc: "Syntax highlighting library (runtime)"
-ldesc: "This program, given a source file, produces a document with 
-syntax highlighting. Source-highlight reads source language 
-specifications dynamically, thus it can be easily extended for handling 
-new languages. It also reads output format specifications dynamically, 
-and thus it can be easily extended for handling new output formats."
