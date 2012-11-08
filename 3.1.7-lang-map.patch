@@ -1,0 +1,12 @@
+--- origsrc/source-highlight-3.1.7/src/lang.map	2012-04-14 12:13:57.000000000 -0500
++++ src/source-highlight-3.1.7/src/lang.map	2012-11-07 18:56:30.946044600 -0600
+@@ -81,6 +81,9 @@ csh = sh.lang
+ ksh = sh.lang
+ tcsh = sh.lang
+ shell = sh.lang
++cygport = sh.lang
++cygpart = sh.lang
++cygclass = sh.lang
+ tcl = tcl.lang
+ tk = tcl.lang
+ txt = nohilite.lang

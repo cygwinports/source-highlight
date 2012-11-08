@@ -1,6 +1,6 @@
 NAME="source-highlight"
 VERSION=3.1.7
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="Syntax highlighting library"
 DESCRIPTION="This program, given a source file, produces a document with
@@ -10,7 +10,7 @@ also reads output format specifications dynamically, and thus it can be easily
 extended for handling new output formats."
 HOMEPAGE="http://www.gnu.org/software/src-highlite/"
 SRC_URI="mirror://gnu/src-highlite/${P}.tar.gz"
-PATCH_URI="3.1.4-no-undefined.patch"
+PATCH_URI="3.1.4-no-undefined.patch  3.1.7-lang-map.patch"
 
 PKG_NAMES="${PN} lib${PN}4 lib${PN}-common lib${PN}-devel"
 source_highlight_CATEGORY="Text"
@@ -24,5 +24,7 @@ libsource_highlight_common_SUMMARY="${SUMMARY} (runtime data)"
 libsource_highlight_common_CONTENTS="usr/share/${PN}/"
 libsource_highlight_devel_SUMMARY="${SUMMARY} (development)"
 libsource_highlight_devel_CONTENTS="usr/include/ usr/lib/"
+
+DIFF_EXCLUDES="*.info"
 
 KEEP_LA_FILES="none"
