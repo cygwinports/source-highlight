@@ -1,6 +1,6 @@
 NAME="source-highlight"
-VERSION=3.1.7
-RELEASE=5
+VERSION=3.1.8
+RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Syntax highlighting library"
 DESCRIPTION="This program, given a source file, produces a document with

@@ -7,6 +7,6 @@
 +cygport = sh.lang
 +cygpart = sh.lang
 +cygclass = sh.lang
+ zsh = zsh.lang
  tcl = tcl.lang
  tk = tcl.lang
- txt = nohilite.lang
